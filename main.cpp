@@ -15,7 +15,7 @@ public:
 
 enum TokenType {
 	Window, Font, Circle, Rectangle
-};
+}; 
 
 // >> operator overloading
 std::ifstream& operator>>(std::ifstream& stream, TokenType& token) {
